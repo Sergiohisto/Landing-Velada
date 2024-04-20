@@ -1,0 +1,20 @@
+<div id="smoke-bkg" class="fixed top-0 h-full w-full"></div>
+
+<script>
+  import * as THREE from "three"; // biblioteca de animaciones
+
+  const $bkg = document.getElementById("smoke-bkg");
+
+  const w = window.innerWidth;
+  const h = window.innerHeight;
+
+  // inicializar el efecto de tree js
+  // e elementos basicos: escena, camara, renderizador
+
+  //escena
+  const scene = new THREE.Scene();
+
+  //camara
+
+  const camera = new THREE.PerspectiveCamera(75, w / h, 1, 1000);
+</script>
